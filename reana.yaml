@@ -1,0 +1,9 @@
+version: 0.1.0
+workflow:
+  type: serial
+  specification:
+    steps:
+      - name: analysis
+        environment: 'python:3.9-slim'
+        commands:
+        - env 
